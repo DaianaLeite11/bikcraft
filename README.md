@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 250f46c77ea9d7457f7b8feaaea50d5fdf92d15c
 # 🚲 Bikcraft - Website Promocional
 
 Este projeto consiste em um site promocional para a empresa **Bikcraft**, especializada na venda de bicicletas feitas à mão. O site apresenta informações sobre os produtos, vantagens e formas de contato da empresa. O design é moderno e responsivo, garantindo uma boa experiência para os usuários.
