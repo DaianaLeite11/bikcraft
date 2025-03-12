@@ -24,11 +24,21 @@ a {
 
 img{
     max-width: 100%; /*evita que o overflow da imagem, a img ocupa 100% do elemento pai*/
+     display: block; /*a imagem  se comporta  como um bloco, ou seja, do inicio ao fim do container*/
 }
 li{
     list-style: none; /*tira as bolinhas da lista*/
 }
 
+p,h1,h2,h3{
+    margin: 0px;
+}
+
+/* 
+========================
+Estilização do header
+========================
+*/
 
 .menu{
     display: flex; /*alinha os elementos na horizontal*/
@@ -87,10 +97,43 @@ Estilização do conteúdo
     border-radius: 4px;
 }
 
+
+/* 
+========================================
+     Estilização das Vantagens 
+========================================
+
+*/
+
+.vantagens{	
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.vantagens-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+
+}
+
+.vantagens-item p{
+    grid-column: 2;
+}
+
+
+/* 
+========================================
+     Estilização do rodapé 
+========================================
+
+*/
 .rodape{
     background-color: #ffffff;
     color: #000000;
     text-align: center;
     padding: 40px;
     width: 100%; /*faz com que o elemento atual fique 100% do tamnaho do elemento pai (você não está utilizando o display)*/
+    box-sizing: border-box;
 }
